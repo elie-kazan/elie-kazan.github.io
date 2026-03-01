@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<section style="padding-bottom: 0;">
+    <div class="container">
+        <div class="post-header">
+            <a href="/posts/" class="back-link">← Back to all posts</a>
+            <h1 class="reveal">{{ .Title }}</h1>
+            <div class="post-meta reveal reveal-delay-1">
+                {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="padding-top: 0;">
+    <div class="container">
+        <div class="post-content reveal reveal-delay-2">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+{{ end }}
