@@ -7,9 +7,9 @@ enableRobotsTXT = true
 [params]
   description = "Database Administrator & Computer Engineer"
   author = "Elie Kazan"
-  email = "elie@example.com"
-  github = "https://github.com/eliekazan"
-  linkedin = "https://linkedin.com/in/eliekazan"
+  email = "kq8qwb8xm@mozmail.com"
+  github = "https://github.com/elie-kazan"
+  linkedin = "https://www.linkedin.com/in/elie-kazan-820957159/"
 
 [markup.goldmark.renderer]
   unsafe = true
