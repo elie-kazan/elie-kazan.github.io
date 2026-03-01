@@ -6,7 +6,11 @@ emoji: "📝"
 draft: false
 ---
 
-Anyone who has debugged a slow PostgreSQL query knows the pain of reading raw `EXPLAIN ANALYZE` output. It's a nested wall of text with costs, row counts, and timings buried inside indentation. For simple queries it's manageable, but when you're dealing with multi-join queries across millions of rows, it becomes nearly impossible to spot the problem at a glance.
+Anyone who has debugged a slow PostgreSQL query knows the pain of reading raw `EXPLAIN ANALYZE` output. It's a nested wall of text with costs, row counts, and timings buried inside indentation.
+
+<!--more-->
+
+For simple queries it's manageable, but when you're dealing with multi-join queries across millions of rows, it becomes nearly impossible to spot the problem at a glance.
 
 So I built [pg_plan_analyzer](https://github.com/elie-kazan/pg_plan_analyzer) — a Python tool that takes the JSON output of `EXPLAIN (ANALYZE, FORMAT JSON)` and turns it into an interactive, color-coded execution tree you can explore in your browser.
 
