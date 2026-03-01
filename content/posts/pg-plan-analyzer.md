@@ -60,7 +60,7 @@ The analyzer checks every node in the plan for five categories of issues:
 
 ## Why Not Just Use Existing Tools?
 
-There are web-based tools like pgAdmin's graphical explain and explain.dalibo.com that visualize plans. They're good, but they require pasting your plan into a browser. I wanted something that runs locally from the terminal, works offline, and gives me opinionated warnings rather than just a visualization.
+There are web-based tools that visualize plans. They're good, but they require pasting your plan into a browser. I wanted something that runs locally from the terminal, works offline, and gives me opinionated warnings rather than just a visualization.
 
 The goal wasn't to build another plan viewer. It was to build something that tells me **what's wrong and what to do about it** — like having a second pair of DBA eyes reviewing every query plan.
 
