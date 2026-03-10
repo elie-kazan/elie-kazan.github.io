@@ -551,7 +551,7 @@ footer {
 
 /* ── Decorative ── */
 .hero-bg {
-    position: absolute;
+    position: fixed;
     top: -200px;
     right: -200px;
     width: 700px;
